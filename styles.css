@@ -9,7 +9,8 @@
 }
 
 h2 {
-  margin: var(--margin), 10px;
+  --margin: 10px;
+  margin: var(--margin, 30px);
   background-color: var(--primary-color);
   color: #FEFCFF;
   padding: .5rem;

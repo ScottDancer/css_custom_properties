@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  background-color: #DAB6F0;
+}
+
+:root {
+  --primary-color:hsl(277, 23%, 28.1%);
+  --margin: 2rem;
+}
+
+h2 {
+  margin: var(--margin), 10px;
+  background-color: var(--primary-color);
+  color: #FEFCFF;
+  padding: .5rem;
+
+}
+
+p {
+  margin: var(--margin);
+  color:var(--primary-color);
+}
